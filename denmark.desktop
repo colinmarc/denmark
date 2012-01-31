@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=denmark
+Comment=Open markdown files in the browser
+Exec=denmark
+MimeType=text/x-web-markdown
+Type=Application
+Categories=Utility;
+NoDisplay=true
