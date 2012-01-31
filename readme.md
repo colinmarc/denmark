@@ -11,7 +11,7 @@ installation
 First you need markdown2:
 
 ```
-sudo pip install markdown2
+$ sudo pip install markdown2
 ```
 
 then just run `sudo setup.py install` from the source directory.
@@ -33,7 +33,7 @@ I've only tested this on ubuntu 11.04.
 First, you need to create an Overrides.xml file in the mime/packages directory (if you already have an Overrides.xml, you'll have to copy the entry in instead):
 
 ```
-sudo cat markdown.xml > /usr/share/mime/packages/Overrides.xml
+$ sudo cat markdown.xml > /usr/share/mime/packages/Overrides.xml
 ```
 
 And update the mimetypes database:
