@@ -1,7 +1,9 @@
 denmark - open markdown files in your browser
 =============================================
 
-This is a quick utility that lets you open markdown files in your default web browser.
+This is a quick utility that lets you open markdown files in your default web browser:
+
+![markdown!](http://www.colinmarc.com/denmark.png)
 
 installation
 ------------
