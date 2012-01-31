@@ -22,7 +22,7 @@ usage
 to open a markdown file in your default browser, just do:
 
 ```
-denmark readme.md
+$ denmark readme.md
 ```
 
 bonus: double click to open
@@ -39,13 +39,13 @@ sudo cat markdown.xml > /usr/share/mime/packages/Overrides.xml
 And update the mimetypes database:
 
 ```
-sudo update-mime-database /usr/share/mime
+$ sudo update-mime-database /usr/share/mime
 ```
 
 Finally, add a line in your defaults file (again, may differ based on distro):
 
 ```
-sudo echo "text/x-web-markdown=denmark.desktop" >> /etc/gnome/defaults.list
+$ sudo echo "text/x-web-markdown=denmark.desktop" >> /etc/gnome/defaults.list
 ```
 
 You'll probably need to re-open nautilus before the changes will take hold, but then you should be able to double click markdown files to open them.
