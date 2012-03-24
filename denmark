@@ -20,7 +20,7 @@ def open_md_file(path):
 	with NamedTemporaryFile(mode='w', prefix='', suffix=suffix, delete=False) as tmp:
 		tmp.write(html.encode('utf8'))
 		
-	webbrowser.open(tmp.name, 2)
+	webbrowser.open("file://" + tmp.name, 2)
 	#os.remove(tmp.name) seems not to work, but whatevs
 	
 if __name__ == '__main__':
