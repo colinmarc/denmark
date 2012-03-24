@@ -14,7 +14,7 @@ First you need markdown2:
 $ sudo pip install markdown2
 ```
 
-then just run `sudo setup.py install` from the source directory.
+then just run `sudo python setup.py install` from the source directory.
 
 usage
 -----
